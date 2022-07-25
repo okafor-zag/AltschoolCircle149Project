@@ -52,4 +52,51 @@ body {
       .header-right {
         float: right;
       }
+
+      .section1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin:100px 0 10px 100px;
+      }
+      
+      .text p{
+        font-size:60px;
+        font-weight:bold;
+      }
+
+      .text .area1{
+        margin-top:20px;
+      }
+      .area1 button{
+        width: 190px;
+        height: 50px;
+        border-radius:7px;
+        border: 1px solid #fff;
+        background-color: rgb(78, 91, 240);
+        color: white;
+
+      }
+
+      .area1 a{
+        font-size:20px;
+        margin-left: 50px;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      #description {
+        text-align: center;
+        margin-top:60px;
+      }
+
+      #description a{
+        font-size:40px;
+        color: black;
+
+      }
 }
