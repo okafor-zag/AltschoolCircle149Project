@@ -17,7 +17,7 @@ body {
  
 @media screen and (min-width:500px) {
     header {
-        width: 100%;
+        max-width: 100%;
         overflow: hidden;
         background-color: var(--body-bg-color);
         padding: 20px 10px;
@@ -60,13 +60,14 @@ body {
       }
       
       .text p{
-        font-size:60px;
+        font-size:50px;
         font-weight:bold;
       }
 
       .text .area1{
         margin-top:20px;
       }
+
       .area1 button{
         width: 190px;
         height: 50px;
@@ -74,7 +75,6 @@ body {
         border: 1px solid #fff;
         background-color: rgb(78, 91, 240);
         color: white;
-
       }
 
       .area1 a{
@@ -89,6 +89,28 @@ body {
         text-decoration: none;
       }
 
+      .image-stack {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        position: relative;
+      }
+
+      .image-stack__item--top {
+        grid-column: 1 / span 8;
+        grid-row: 1; 
+        padding-top: 20%;
+        z-index: 1;
+      }
+
+      .image-stack__item--bottom {
+        grid-column: 4 / -1;
+        grid-row: 1;
+      }
+
+      .image-stack img {
+        max-width:356px;
+      }
+
       #description {
         text-align: center;
         margin-top:60px;
@@ -97,6 +119,9 @@ body {
       #description a{
         font-size:40px;
         color: black;
-
       }
+
+
+
+
 }
