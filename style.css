@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700&family=Poppins:wght@200;300;500;600&display=swap');
+
+*{
+    font-family: Darker Grotesque, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+html{
+ 
+    overflow-x: hidden;
+}
+body{
+    background: #f1f1f1f1;
+    margin: 0;
+    padding: 0 ;
+}
+.team{
+    padding-top:30px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding-top:50px;
+    text-align: center;
+}
+.circle_team {
+    width: 20%;
+    height: 300px;
+    background: #f0f0f1;
+    margin: 20px;
+    box-sizing: border-box;
+   
+}
+img{
+width: 194.9px;
+height: 205px;
+border-radius: 138.5px;
+}
+.fa-brands{
+height: 27px;
+width: 27px;
+text-decoration: none;
+color: black;
+
+}
+h5{
+    font-family: 'Darker Grotesque', sans-serif ;
+   font-weight:400;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 5px;
+    }
+h3{
+text-align: center;
+font-family: 'Darker Grotesque';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+text-transform: capitalize;
+color: #121212;
+}
+h4{
+    font-weight:700;
+    font-size: 24px;
+    line-height: 32.5px
+    }
+
+@media screen and (max-width: 1200px){
+    .circle_team{
+        width:40%;
+
+    }
+}
+    @media screen and (max-width: 600px){
+    .circle_team{
+        width:90%;
+        
+    }
+}
